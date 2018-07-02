@@ -1,4 +1,4 @@
-#Go语言环境安装
+# Go语言环境安装
 ## 1.下载go安装包
 - [官网地址](https://golang.org/dl)
 - [墙内地址](https://studygolang.com/dl)
