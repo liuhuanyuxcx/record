@@ -28,6 +28,12 @@
 
 ### 5.参考链接：
 [docker安装](http://www.runoob.com/docker/centos-docker-install.html)
+## ubuntu 安装docker
+### 1.安装
+	apt-get update
+	apt install -y docker.io
+### 2.启动docker后台服务
+	service docker start
 ## 安装docker-compose
 ### 1.下载
 	curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
