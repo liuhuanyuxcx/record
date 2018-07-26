@@ -34,6 +34,11 @@
 	apt install -y docker.io
 ### 2.启动docker后台服务
 	service docker start
+### 3.docker启动配置文件目录：
+	/lib/systemd/system/docker.service
+### 4.重启
+	systemctl daemon-reload
+	systemctl restart docker.service
 ## 安装docker-compose
 ### 1.下载
 	curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
@@ -42,3 +47,17 @@
 ### 3.测试安装结果
 	docker-compose --version
 
+## docker镜像导入导出
+	docker save -o liuhy.tar hyperledger/fabric-zookeeper:0.4.10 hyperledger/fabric-kafka:0.4.10 hyperledger/fabric-couchdb:0.4.10 hyperledger/fabric-baseos:amd64-0.4.10
+	scp liuhy.tar 目标机器
+	docker load -i liuhy.tar
+	删除tar包
+
+## docker不用加sudo
+### 1.创建一个docker组 
+	sudo groupadd docker
+### 2.添加当前用户到docker组 
+	sudo usermod -aG docker $USER
+### 3.登出，重新登录shell
+### 4.验证docker命令是否可以运行
+	docker ps 
