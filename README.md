@@ -9,3 +9,4 @@
 - [notepad++安装json-Viewer插件](records/notepad++.md)
 - [postgresql安装](records/postgresql.md)
 - [安装ubuntu虚拟机](records/vm.md)
+- [Go实现管道(pipe)](https://blog.csdn.net/Meng_zj/article/details/80391485)

@@ -61,3 +61,6 @@
 ### 3.登出，重新登录shell
 ### 4.验证docker命令是否可以运行
 	docker ps 
+
+## docker清理日志
+	sudo find /var/lib/docker/containers/ -name *-json.log  -exec rm -f {} \;
