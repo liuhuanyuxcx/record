@@ -3,6 +3,7 @@
 - [win7下gcc安装](records/gcc.md)
 - [git安装](records/git.md)
 - [Go语言环境的安装](records/Install-go.md)
+- [Goland的安装](records/Install-goland.md)
 - [linux常用命令](records/linux.md)
 - [nfs安装和使用](records/nfs.md)
 - [node安装](records/node.md)
