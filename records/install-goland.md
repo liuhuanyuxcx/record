@@ -10,3 +10,6 @@
 ### 3.参考链接
 [IntelliJ IDEA安装及破解
 ](https://blog.csdn.net/qq1404510094/article/details/79005826)
+
+## 三、学习资源
+[go语言一些开源的package](http://jixiuf.github.io/blog/go_package.html/)

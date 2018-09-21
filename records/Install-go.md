@@ -26,7 +26,8 @@ go get -u google.golang.org/grpc
 - google.golang.org/grpc 对应的代码地址在： https://github.com/grpc/grpc-go
 - google.golang.org/cloud/compute/metadata 对应的代码地址在： https://github.com/GoogleCloudPlatform/gcloud-golang
 - golang.org/x/oauth2 对应的代码地址在： https://github.com/golang/oauth2
-- golang.org/x/net/context 对应的代码地址在： https://github.com/golang/net 
+- golang.org/x/net/context 对应的代码地址在： https://github.com/golang/net
+- golang.org/x/crypto 对应的代码地址在： https://github.com/golang/crypto
 
 ### 4.go包管理演进史
 [Go包管理的演进历史](https://tonybai.com/2017/06/08/first-glimpse-of-dep/)

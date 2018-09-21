@@ -15,4 +15,17 @@
 
 ### 安装gcc和g++
 	yum install gcc
-	yum install -y gcc-c++ 
+	yum install -y gcc-c++
+
+### 时间设置
+#### 时区设置
+    timedatectl set-timezone Asia/Shanghai
+    timedatectl set-ntp true
+链接：[https://www.cnblogs.com/zhi-leaf/p/6282301.html]()
+
+#### 安装ntp
+    yum install -y ntp
+
+    service ntpd start  #开启ntp客户端服务
+    service ntpd status
+链接：[https://blog.csdn.net/u013712826/article/details/61938675/]()
