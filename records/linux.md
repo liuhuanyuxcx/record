@@ -29,3 +29,7 @@
     service ntpd start  #开启ntp客户端服务
     service ntpd status
 链接：[https://blog.csdn.net/u013712826/article/details/61938675/]()
+
+
+### SSH无密码登录和ssh常用命令
+链接：[https://blog.csdn.net/liu_qingbo/article/details/78383892()
