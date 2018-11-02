@@ -26,3 +26,12 @@
 可以使用 `git reset --hard HEAD^` 来回退到上一次commit的状态。此命令可以用来回退到任意版本：`git reset --hard  commitid` 
 
 你可以使用` git log` 命令来查看git的提交历史。
+
+### 4.错误处理
+#### 1) git add后只增加了文件夹，但是没有文件。手动Add:
+```fatal: Pathspec 'xxx' is in submodule```
+解决方案：
+```
+git rm -rf --cached vendor/github.com/swaggo/swag/
+git add vendor/github.com/swaggo/swag/*
+```

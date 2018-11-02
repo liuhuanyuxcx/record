@@ -66,4 +66,8 @@
 	sudo find /var/lib/docker/containers/ -name *-json.log  -exec rm -f {} \;
 
 ## docker加速器配置
+在docker的启动参数中加
+```
+--registry-mirror=https://7z4sr9d7.mirror.aliyuncs.com
+```
 [Docker - 配置国内加速器加速镜像下载](https://www.cnblogs.com/atuotuo/p/6264800.html)
