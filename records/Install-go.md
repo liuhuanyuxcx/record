@@ -23,6 +23,7 @@ go get -u google.golang.org/grpc
 由于墙的原因，我们一些依赖的包文件可以通过下面方式下载到：
 在 github 可以找到源码，下载后复制到对应目录即可的：
 
+- google.golang.org/genproto/googleapis/rpc/status  对应的代码地址在：https://github.com/google/go-genproto
 - google.golang.org/grpc 对应的代码地址在： https://github.com/grpc/grpc-go
 - google.golang.org/cloud/compute/metadata 对应的代码地址在： https://github.com/GoogleCloudPlatform/gcloud-golang
 - golang.org/x/oauth2 对应的代码地址在： https://github.com/golang/oauth2
@@ -30,4 +31,5 @@ go get -u google.golang.org/grpc
 - golang.org/x/crypto 对应的代码地址在： https://github.com/golang/crypto
 
 ### 4.go包管理演进史
-[Go包管理的演进历史](https://tonybai.com/2017/06/08/first-glimpse-of-dep/)
+- [Go包管理的演进历史](https://tonybai.com/2017/06/08/first-glimpse-of-dep/)
+- [dep获取私有库的方法教程](https://www.jb51.net/article/127758.htm)
