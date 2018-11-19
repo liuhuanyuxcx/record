@@ -35,3 +35,9 @@
 git rm -rf --cached vendor/github.com/swaggo/swag/
 git add vendor/github.com/swaggo/swag/*
 ```
+
+### 5.常用命令
+#### 1）从远程分支创建本地分支
+    git checkout -b dev remotes/origin/dev
+#### 2）删除本地分支
+    git branch -D dev

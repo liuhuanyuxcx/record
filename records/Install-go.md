@@ -33,3 +33,6 @@ go get -u google.golang.org/grpc
 ### 4.go包管理演进史
 - [Go包管理的演进历史](https://tonybai.com/2017/06/08/first-glimpse-of-dep/)
 - [dep获取私有库的方法教程](https://www.jb51.net/article/127758.htm)
+
+### 5.go交叉编译命令
+    env GOOS=linux GOARCH=amd64 go build .
