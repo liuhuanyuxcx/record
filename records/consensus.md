@@ -1,0 +1,3 @@
+- [Raft动画](http://thesecretlivesofdata.com/raft/)
+- [Raft协议详解](https://blog.csdn.net/xiongwenwu/article/details/79981712)
+- [分布式事务与一致性算法Paxos & raft & zab](https://blog.csdn.net/followMyInclinations/article/details/52870418)
