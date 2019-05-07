@@ -49,4 +49,4 @@ git add vendor/github.com/swaggo/swag/*
     fatal: unable to access 'https://github.com/liuhuanyuxcx/record.git/': The requested URL returned error: 403
     解决方法：
     git remote rm origin
-    git remote add origin https://liuhuanyuxcx@github.com/liuhuanyuxcx/records.git
+    git remote add origin https://liuhuanyuxcx@github.com/liuhuanyuxcx/record.git
