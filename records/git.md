@@ -23,7 +23,7 @@
 
 - （三）已经用 `git commit`  提交了代码：
 
-可以使用 `git reset --hard HEAD^` 来回退到上一次commit的状态。此命令可以用来回退到任意版本：`git reset --hard  commitid` 
+可以使用 `git reset --hard HEAD^` 来回退到上一次commit的状态。此命令可以用来回退到任意版本：`git reset --hard  commitid`
 
 你可以使用` git log` 命令来查看git的提交历史。
 
@@ -41,3 +41,5 @@ git add vendor/github.com/swaggo/swag/*
     git checkout -b dev remotes/origin/dev
 #### 2）删除本地分支
     git branch -D dev
+#### 3) 记住用户名
+    git config --global credential.helper store
