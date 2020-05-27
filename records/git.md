@@ -47,6 +47,12 @@ git add vendor/github.com/swaggo/swag/*
     remote: You must verify your email address.
     remote: See https://github.com/settings/emails.
     fatal: unable to access 'https://github.com/liuhuanyuxcx/record.git/': The requested URL returned error: 403
-    解决方法：
+    解决方法1：
     git remote rm origin
     git remote add origin https://liuhuanyuxcx@github.com/liuhuanyuxcx/record.git
+    解决方法2：
+    vim .git/config
+    修改内容
+    [remote “origin”]
+    原：url = https://github.com/liuhuanyuxcx/record.git
+    修改为：url = https://liuhuanyuxcx@github.com/liuhuanyuxcx/record.git
