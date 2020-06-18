@@ -33,3 +33,8 @@
 
 ### SSH无密码登录和ssh常用命令
 链接：[https://blog.csdn.net/liu_qingbo/article/details/78383892]()
+
+
+### 查看内网和外网IP
+- 内网：`ifconfig -a`执行结果中`inet `后面跟的就是内网IP
+- 外网：`curl ifconfig.me`
