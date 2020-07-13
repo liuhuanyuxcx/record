@@ -11,4 +11,5 @@
 - [postgresql安装](records/postgresql.md)
 - [安装ubuntu虚拟机](records/vm.md)
 - [各大公司Baas平台](records/baas.md)
+- [k8s常用命令记录](records/k8s.md)
 - [Go实现管道(pipe)](https://blog.csdn.net/Meng_zj/article/details/80391485)

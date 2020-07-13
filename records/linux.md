@@ -38,3 +38,9 @@
 ### 查看内网和外网IP
 - 内网：`ifconfig -a`执行结果中`inet `后面跟的就是内网IP
 - 外网：`curl ifconfig.me`
+
+### 发邮件
+配置好`/etc/mail.rc`后，执行下面的命令就可以发邮件，具体配置方法见链接：[https://blog.csdn.net/du1055669885/article/details/82561503]()
+
+    echo "This is a test email." |mail -s "Test!" ssy-02411@163.com
+
