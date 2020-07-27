@@ -56,3 +56,8 @@ git add vendor/github.com/swaggo/swag/*
     [remote “origin”]
     原：url = https://github.com/liuhuanyuxcx/record.git
     修改为：url = https://liuhuanyuxcx@github.com/liuhuanyuxcx/record.git
+#### 5)在使用.gitignore文件后如何删除远程仓库中以前上传的此类文件而保留本地文件
+    git rm -r --cached directory
+    git add -A
+    git commit
+    git push
