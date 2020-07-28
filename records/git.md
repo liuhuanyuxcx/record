@@ -61,3 +61,7 @@ git add vendor/github.com/swaggo/swag/*
     git add -A
     git commit
     git push
+#### 6)切换分支报错，需要stash时： 
+    1、git stash
+    2、git checkout dev
+    3、git stash pop
