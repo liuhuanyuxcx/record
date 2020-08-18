@@ -44,3 +44,5 @@
 
     echo "This is a test email." |mail -s "Test!" ssy-02411@163.com
 
+### df -h无响应
+可能是因为读取不到远程挂载点的信息，导致hang住了，如果只看本地文件系统的信息，可以改用`df -hl`来查看，就不会hang住了。
