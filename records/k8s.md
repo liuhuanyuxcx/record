@@ -24,3 +24,4 @@
 
   sysctl --system
 ```
+注意：/etc/sysctl.conf,/etc/sysctl.d/k8s.conf,/etc/sysctl.d/kubernetes.conf这三个文件都要看
