@@ -4,4 +4,4 @@
 
 ## 99.go面试题链接
 - [http://www.imooc.com/article/264183]()
-- [http://https://www.bilibili.com/read/cv7055697/]()
+- [https://www.bilibili.com/read/cv7055697/]()
