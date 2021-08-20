@@ -1,1 +1,2 @@
 - [Hive原理详解](https://blog.csdn.net/ForgetThatNight/article/details/79632364?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.baidujs&dist_request_id=4694d004-8cf9-4edb-9003-8a383044e77b&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.baidujs)
+- [一文遍历大数据架构变迁史](https://www.163.com/dy/article/GBE305QL0511805E.html)
