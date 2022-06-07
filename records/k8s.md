@@ -33,4 +33,4 @@ rm -rf /etc/cni/ /run/flannel/ /etc/kubernetes/ /var/lib/etcd/ $HOME/.kube
 ```
 
 ### 4.王欣博客链接
-https://singhwang.github.io/2019/10/03/kubeadm_kubernetes_cluster_000/
+[使用kubeadm的方式安装Kubernetes集群（一）](https://singhwang.github.io/2019/10/03/kubeadm_kubernetes_cluster_000/)
